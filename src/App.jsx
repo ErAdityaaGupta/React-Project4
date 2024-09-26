@@ -6,12 +6,12 @@ import Services from "./Sections/Services";
 import SpecialOffers from "./Sections/SpecialOffers";
 import Subscribe from "./Sections/Subscribe";
 import SuperQuality from "./Sections/SuperQuality";
+import Nav from "./components/Nav";
 
 export default function App() {
   return (
     <main className="relative">
-      {/* <Nav></Nav> */}
-      Nav
+      <Nav></Nav>
       <section className="xl:padding-1 wide:padding-r padding-b">
         <Hero></Hero>
       </section>
